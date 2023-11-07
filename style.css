@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: auto;
+    position: relative;
+    margin: auto;
+}
+
+/* .slide-container {
+
+} */
+
+.slide-img {
+    object-fit: cover;
+    object-position: center;
+}
+
+/* .prev {
+    width: 20px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    clip-path: polygon(100% 100%, 100% 0, 0 50%);
+} */
+
+
+/* .next {
+
+} */
+
+.prev{ left: 15px; }
+.next { right: 15px; }
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.dot-container {
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}

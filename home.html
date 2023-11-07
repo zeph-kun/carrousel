@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrousel</title>
+</head>
+<body>
+    <div id="carrousel" class="container">
+        <div class="slide-container">
+            <div class="slide-img">
+                <img src="chihiro.jpeg" style="width: 1512px;height: 800px;">
+            </div>
+            <div class="slide-img">
+                <img src="chateau.jpeg" style="width: 1512px; height: 800px;">
+            </div>
+            <div class="slide-img">
+                <img src="totoro.jpeg" style="width: 1512px; height: 800px;">
+            </div>
+            <a class="prev" onclick="plusSlide(-1)"></a>
+            <a class="next" onclick="plusSlide(1)"></a>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+    <script src="carrousel.js"></script>
+</body>
+</html>
